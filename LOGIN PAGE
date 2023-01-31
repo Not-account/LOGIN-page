@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+</head>
+<body>
+    <center>
+    <h3>Registation Form</h3>
+    <form action="/action.js" method="get">
+        <input type="text" placeholder="username">
+        <br/><br>
+        <input type="passeord" placeholder="password">
+        <br/><br/>
+
+        <label for="101">
+            <input type="radio" value="STUDENT" name="portfolio" id="101">STUDENT
+        </label>
+        <br/>
+        <label for="102">
+            <input type="radio" value="PROFESSIONAL" name="portfolio" id="102">PROFESSIONAL
+        </label>
+        <br/><br/>
+        <b>PORTFOLIO TYPES</b>
+        <br/>
+        
+        <label for="SIMPLE PORTFOLIO:">
+            <input type="checkbox" value="SIMPLE PORTFOLIO" name="portfolio type" id="103">SIMPLE PORTFOLIO
+        </label>
+        <br/>
+        <label for="MARRAGE PORTFOLIO:">
+            <input type="checkbox" value="MARRAGE PORTFOLIO" name="portfolio type" id="104">MARRAGE PORTFOLIO
+        </label>
+        <br/>
+        <label for="JOB PORTFOLIO:">
+            <input type="checkbox" value="JOB PORTFOLIO" name="portfolio type" id="105">JOB PORTFOLIO
+        </label>
+        <br/>
+        <label for="STUDENT POORTFOLIO:">
+            <input type="checkbox" value="STUDENT PORTFOLIO" name="portfolio type" id="106">STUDENT PORTFOLIO
+        </label>
+        <br/>
+        <label for="PROFESSIONAL PORTFOLIO:">
+            <input type="checkbox" value="PROFESSIONAL PORTFOLIO" name="portfolio type" id="107">PROFESSIONAL PORTFOLIO
+        </label>
+        <br/><br/>
+        <b>Select your city</b>
+        <select name="city">
+            <option value="uttar predesh">uttar predesh</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Rajastan">Rajastan</option>
+            <option value="Andera predesh">Andera</option>
+            <option value="Himanchal">Himanchal</option>
+            <option value="Pune">Pune</option>
+            <option value="Lucknow">Lucknow</option>
+        </select>
+        <br/><br/>
+        <textarea name="FEEDBACK" id="110" placeholder="please give you valuable feedback here" rows="10" >FEEDBACK</textarea>
+        <br/><br/>
+        <input type="Submit" value="Submit">
+    </form>
+</center>
+</body>
+</html>
